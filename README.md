@@ -1,1 +1,3 @@
-"# docker-playground-" 
+"# docker-playground-"
+
+A LOT OF DOCKER COMMANDS AND PRACTICES
