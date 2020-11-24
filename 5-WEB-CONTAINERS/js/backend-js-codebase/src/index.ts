@@ -5,7 +5,7 @@ import logger from './utils/logger';
 import moment from 'moment-timezone';
 
 const PORT = 5000;
-const HOST = "127.0.0.1";
+const HOST = "0.0.0.0";
 
 process.on('unhandledRejection', (reason, promise) => {
   const msg = `

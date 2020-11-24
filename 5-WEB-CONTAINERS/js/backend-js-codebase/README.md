@@ -2,4 +2,4 @@
 
 yarn install
 
-docker run -it --rm alvaropy/typescript-codebase:0.1
+docker run -it --rm -p 5000:5000 alvaropy/typescript-codebase:0.1

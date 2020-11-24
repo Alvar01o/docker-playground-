@@ -2,5 +2,7 @@ FROM debian:jessie
 RUN apt-get update && apt-get install -y \
  git \
  vim 
-CMD ["echo", "everything done"]
+
+COPY abc.txt /src/abc.txt
+
 
